@@ -99,18 +99,49 @@ li{
 
 /* main */
 
-main{
+/* main{
     background-color: blue;
-}
+} */
 
 .content{
     width: 25%;
+}
+
+.top-content h3{
+    color: lightgrey;
+    font-size: medium;
 }
 
 .mid-content{
     width: 50%;
     padding: 0 2%;
 }
+
+#img1-container{
+    height: 200px;
+    background-image: url(../img/img-1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+#img2-container{
+    height: 200px;
+    background-image: url(../img/banner-2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+#img3-container{
+    height: 200px;
+    background-image: url(../img/img-3.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+
 
 /* footer */
 
