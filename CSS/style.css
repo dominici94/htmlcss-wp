@@ -15,9 +15,9 @@
     float: left;
 }
 
-.right{
+/* .right{
     float: right;
-}
+} */
 
 .clearfix::after{
     content: "";
@@ -27,20 +27,7 @@
 
 body{
     margin: 1% 8%;
-}
-
-/* header */
-
-header{
-    height: 450px;
-}
-
-.header-top{
-    width: 100%;
-}
-
-.jumbotron{
-    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .margin-btm{
@@ -53,6 +40,41 @@ header{
 
 .pad-btm{
     padding-bottom: 20px;
+}
+
+/* header */
+
+header{
+    height: 450px;
+}
+
+.header-top{
+    width: 100%;
+    height: 20%;
+}
+
+#logo{
+    /* height: calc(60%); */
+    height: 60%;
+    border-right: 2px solid lightgrey;
+    padding-right: 20px;
+}
+
+nav{
+    height: 40%;
+    padding-top: 10px;
+}
+
+li{
+    display: inline-block;
+    margin-right: 10px;
+    color: grey;
+    text-transform: uppercase;
+}
+
+.jumbotron{
+    width: 100%;
+    height: 80%;
 }
 
 /* main */
@@ -77,7 +99,8 @@ footer{
     height: 50px;
 }
 
-/* debug */
+
+/* ***********************************debug*********************************  */
 
 .header-top .debug{
     height: 100px;
