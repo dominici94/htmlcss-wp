@@ -74,12 +74,20 @@ li{
 .jumbotron{
     width: 100%;
     height: 460px;
+    
 }
 
 #jumbo-cont{
     background-image: url(../img/banner.jpg);
     background-size: cover;
     background-position: center;
+    border-radius: 15px;
+    
+}
+
+.layover{
+    background-color: rgba(100, 100, 100, 0.3);
+    height: 100%;
     border-radius: 15px;
 }
 
